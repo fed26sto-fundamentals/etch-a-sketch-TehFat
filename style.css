@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+
+    margin: 20px auto 20px auto ;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#container {
+    display: grid;
+    width: 960px;
+    /* Fixed total width */
+    height: 960px;
+    /* Fixed total height */
+    gap: 1px;
+    margin: auto;
+
+}
+
+.grid-square {
+    background-color: rgb(5, 3, 3);
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease;
+
+}
+
+.grid-square:hover {
+    background-color: #ffbf00;
+}
